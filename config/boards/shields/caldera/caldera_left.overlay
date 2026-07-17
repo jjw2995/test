@@ -2,12 +2,37 @@
 
 &kscan0 {
     col-gpios
-        = <&pro_micro 3 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 4 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 5 GPIO_ACTIVE_HIGH>
+        = <&pro_micro 8 GPIO_ACTIVE_HIGH>
+		, <&pro_micro 7 GPIO_ACTIVE_HIGH>
         , <&pro_micro 6 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 7 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 5 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 4 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 3 GPIO_ACTIVE_HIGH>
         , <&pro_micro 2 GPIO_ACTIVE_HIGH>
         ;
 };
 
+
+        /* c1: */
+        /*   key.column_net: P2 */
+        /* c2: */
+        /*   key.column_net: P3 */
+        /* c3: */
+        /*   key: */
+        /*     column_net: P4 */
+        /*     stagger: 2.4q */
+        /* c4: */
+        /*   key: */
+        /*     column_net: P5 */
+        /*     stagger: q */
+        /* c5: */
+        /*   key: */
+        /*     column_net: P6 */
+        /*     stagger: -1.2q */
+        /* c6: */
+        /*   key: */
+        /*     column_net: P7 */
+        /*     stagger: -0.8q */
+        /* c7: */
+        /*   key: */
+        /*     column_net: P8 */
